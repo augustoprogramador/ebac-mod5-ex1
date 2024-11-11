@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         String nome;
 
+        // SUBINDO O PROJETO PARA O GITHUB
         if (Arrays.stream(args).count() > 0) {
             System.out.printf("Hello and welcome, " + args[0] + "!");
             return;
